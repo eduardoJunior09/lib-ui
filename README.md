@@ -8,6 +8,7 @@ Em breve será disponibilizado como uma biblioteca no NPM!
 ## ✨ Tecnologias
 - React
 - TypeScript
+- Styled-Components
 - Vite (ambiente de build e desenvolvimento)
 - Storybook (documentação dos componentes)
 
