@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# 📦 lib-ui 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma coleção de componentes de interface de usuário reutilizáveis, escritos em React + TypeScript, com foco em performance, acessibilidade e personalização.
 
-Currently, two official plugins are available:
+## 🚧 Projeto em desenvolvimento. 
+Em breve será disponibilizado como uma biblioteca no NPM!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Tecnologias
+- React
+- TypeScript
+- Vite (ambiente de build e desenvolvimento)
+- Storybook (documentação dos componentes)
 
-## Expanding the ESLint configuration
+## 📚 Documentação
+Todos os componentes são documentados utilizando o Storybook.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Para visualizar:
+### bash 
 
 ```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+npm run storybook
+# ou
+yarn storybook
 ```
+Acesse a interface interativa dos componentes no navegador.
+
+## 🛠️ Desenvolvimento local
+Clone o repositório:
+
+### bash
+
+```js
+git clone https://github.com/eduardoJunior09/lib-ui.git
+cd nome-do-projeto
+npm install
+```
+
+Inicie o projeto:
+
+### bash
+
+```js
+npm run dev
+```
+
+## 🧩 Componentes disponíveis
+### Button
+(mais componentes em breve...)
+
+## 📢 Contribuindo
+Futuramente, serão abertas issues para colaboração!
+Enquanto isso, feedbacks e sugestões são muito bem-vindos! 🚀
+
+## ⚡ Autor
+Feito  por Eduardo Júnior —  [LinkedIn](https://www.linkedin.com/in/junior-ec/)
