@@ -49,6 +49,7 @@ npm run dev
 
 ## 📢 Contribuindo
 Futuramente, serão abertas issues para colaboração!
+
 Enquanto isso, feedbacks e sugestões são muito bem-vindos! 🚀
 
 ## ⚡ Autor
